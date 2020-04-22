@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# inherit MI 6X lineage device config
+# inherit MI 6X xtended device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_wayne.mk
+    $(LOCAL_DIR)/xtended_wayne.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_wayne-eng \
-    carbon_wayne-userdebug \
-		carbon_wayne-user
+    xtended_wayne-eng \
+    xtended_wayne-userdebug \
+		xtended_wayne-user

@@ -25,7 +25,7 @@
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
 # Inherit MSM-Xtended product configuration
-$(call inherit-product, vendor/xtended/config/common_full.mk)
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
